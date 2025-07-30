@@ -50,7 +50,8 @@ header{
         top: 0;
         padding: 56px 24px 0px 24px;
         display: flex;
-            flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        z-index: 999999!important;
         .equis_de_menu_en_el_header{
             width: 24px;
             height: 20px;
