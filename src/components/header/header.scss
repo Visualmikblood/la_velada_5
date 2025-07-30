@@ -149,6 +149,10 @@ header{
         position: absolute;
         bottom: 0px;
         width: 100%;
+        .wrapper_scroll {
+            overflow: hidden;
+            width: 100%;
+        }
         .solo_div_de_luchadores{
             display: flex;
             overflow-x: auto;
@@ -158,6 +162,8 @@ header{
             gap: 100px;
             justify-content: flex-start;
             scrollbar-width: none;
+            padding-left: 50vw;
+    padding-right: 50vw;
             .div_de_luchadores_mas_el_margin_left{
                 flex: 0 0 auto;
                 display: flex;

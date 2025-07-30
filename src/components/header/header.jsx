@@ -144,87 +144,71 @@ const Header = () => {
       </div>
 
       <div className="div_de_luchadores_en_el_header_mas_las_flechas">
-        <div className="solo_div_de_luchadores" ref={luchadoresRef}>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
+        <div className="wrapper_scroll">
+          <div className="solo_div_de_luchadores" ref={luchadoresRef}>
+            <div className="div_de_luchadores_mas_el_margin_left">
+              <div className="bloque_de_dos_luchadores">
+                <img src="/images/luchadores/grefg.webp" alt="" />
+                <img src="/images/luchadores/westcol.webp" alt="" />
+              </div>
+              <figure>
+                <img src="/images/luchadores/versus.webp" alt="" />
+              </figure>
             </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
+            <div className="div_de_luchadores_mas_el_margin_left">
+              <div className="bloque_de_dos_luchadores">
+                <img src="/images/luchadores/grefg.webp" alt="" />
+                <img src="/images/luchadores/westcol.webp" alt="" />
+              </div>
+              <figure>
+                <img src="/images/luchadores/versus.webp" alt="" />
+              </figure>
             </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
+            <div className="div_de_luchadores_mas_el_margin_left">
+              <div className="bloque_de_dos_luchadores">
+                <img src="/images/luchadores/grefg.webp" alt="" />
+                <img src="/images/luchadores/westcol.webp" alt="" />
+              </div>
+              <figure>
+                <img src="/images/luchadores/versus.webp" alt="" />
+              </figure>
             </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
+            <div className="div_de_luchadores_mas_el_margin_left">
+              <div className="bloque_de_dos_luchadores">
+                <img src="/images/luchadores/grefg.webp" alt="" />
+                <img src="/images/luchadores/westcol.webp" alt="" />
+              </div>
+              <figure>
+                <img src="/images/luchadores/versus.webp" alt="" />
+              </figure>
             </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
+            <div className="div_de_luchadores_mas_el_margin_left">
+              <div className="bloque_de_dos_luchadores">
+                <img src="/images/luchadores/grefg.webp" alt="" />
+                <img src="/images/luchadores/westcol.webp" alt="" />
+              </div>
+              <figure>
+                <img src="/images/luchadores/versus.webp" alt="" />
+              </figure>
             </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
+            <div className="div_de_luchadores_mas_el_margin_left">
+              <div className="bloque_de_dos_luchadores">
+                <img src="/images/luchadores/grefg.webp" alt="" />
+                <img src="/images/luchadores/westcol.webp" alt="" />
+              </div>
+              <figure>
+                <img src="/images/luchadores/versus.webp" alt="" />
+              </figure>
             </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
+            <div className="div_de_luchadores_mas_el_margin_left">
+              <div className="bloque_de_dos_luchadores">
+                <img src="/images/luchadores/grefg.webp" alt="" />
+                <img src="/images/luchadores/westcol.webp" alt="" />
+              </div>
+              <figure>
+                <img src="/images/luchadores/versus.webp" alt="" />
+              </figure>
             </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
-            </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
-          </div>
-          <div className="div_de_luchadores_mas_el_margin_left">
-            <div className="bloque_de_dos_luchadores">
-              <img src="/images/luchadores/grefg.webp" alt="" />
-              <img src="/images/luchadores/westcol.webp" alt="" />
-            </div>
-            <figure>
-              <img src="/images/luchadores/versus.webp" alt="" />
-            </figure>
           </div>
         </div>
         <div>
