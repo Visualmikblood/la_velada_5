@@ -51,7 +51,7 @@ header{
         padding: 56px 24px 0px 24px;
         display: flex;
         flex-direction: row-reverse;
-        z-index: 999999!important;
+        z-index: 100;
         .equis_de_menu_en_el_header{
             width: 24px;
             height: 20px;
@@ -156,8 +156,7 @@ header{
             scroll-behavior: smooth;
             width: 100%;
             gap: 100px;
-            padding-left: 100px;
-            padding-right: 100px;
+            justify-content: flex-start;
             scrollbar-width: none;
             .div_de_luchadores_mas_el_margin_left{
                 flex: 0 0 auto;

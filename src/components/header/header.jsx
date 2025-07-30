@@ -5,13 +5,16 @@ const Header = () => {
   const toggleBtnRef = useRef(null);
   const navMenuRef = useRef(null);
   const closeBtnRef = useRef(null);
-  const luchadoresRef = useRef(null); // 👉 Ref para el contenedor scrollable
+  const luchadoresRef = useRef(null);
 
   useEffect(() => {
     const toggleBtn = toggleBtnRef.current;
     const navMenu = navMenuRef.current;
     const closeBtn = closeBtnRef.current;
     const luchadores = luchadoresRef.current;
+    const bloques = luchadores.querySelectorAll('.div_de_luchadores_mas_el_margin_left');
+
+    let currentIndex = 0;
 
     const handleOpenClick = () => {
       navMenu.style.right = '0px';
@@ -26,7 +29,6 @@ const Header = () => {
     toggleBtn.addEventListener('click', handleOpenClick);
     closeBtn.addEventListener('click', handleCloseClick);
 
-    // 👉 Swipe logic
     let touchStartX = 0;
     let touchEndX = 0;
 
@@ -42,17 +44,28 @@ const Header = () => {
     const handleGesture = () => {
       const swipeDistance = touchStartX - touchEndX;
 
-      if (swipeDistance > 50) {
-        // 👉 Swipe izquierda detectado
-        const bloqueWidth = luchadores.firstChild.offsetWidth;
-        luchadores.scrollLeft += bloqueWidth; // Mueve al siguiente grupo
+      if (swipeDistance > 50 && currentIndex < bloques.length - 1) {
+        currentIndex++;
+        centerBlock(currentIndex);
       }
-      if (swipeDistance < -50) {
-        // 👉 Swipe derecha detectado (opcional)
-        const bloqueWidth = luchadores.firstChild.offsetWidth;
-        luchadores.scrollLeft -= bloqueWidth; // Mueve al anterior grupo
+      if (swipeDistance < -50 && currentIndex > 0) {
+        currentIndex--;
+        centerBlock(currentIndex);
       }
     };
+
+    const centerBlock = (index) => {
+      const bloque = bloques[index];
+      const bloqueCenter = bloque.offsetLeft + bloque.offsetWidth / 2;
+      const scrollTo = bloqueCenter - luchadores.offsetWidth / 2;
+
+      luchadores.scrollTo({
+        left: scrollTo,
+        behavior: 'smooth',
+      });
+    };
+
+    centerBlock(0);
 
     luchadores.addEventListener('touchstart', handleTouchStart);
     luchadores.addEventListener('touchend', handleTouchEnd);
@@ -132,6 +145,24 @@ const Header = () => {
 
       <div className="div_de_luchadores_en_el_header_mas_las_flechas">
         <div className="solo_div_de_luchadores" ref={luchadoresRef}>
+          <div className="div_de_luchadores_mas_el_margin_left">
+            <div className="bloque_de_dos_luchadores">
+              <img src="/images/luchadores/grefg.webp" alt="" />
+              <img src="/images/luchadores/westcol.webp" alt="" />
+            </div>
+            <figure>
+              <img src="/images/luchadores/versus.webp" alt="" />
+            </figure>
+          </div>
+          <div className="div_de_luchadores_mas_el_margin_left">
+            <div className="bloque_de_dos_luchadores">
+              <img src="/images/luchadores/grefg.webp" alt="" />
+              <img src="/images/luchadores/westcol.webp" alt="" />
+            </div>
+            <figure>
+              <img src="/images/luchadores/versus.webp" alt="" />
+            </figure>
+          </div>
           <div className="div_de_luchadores_mas_el_margin_left">
             <div className="bloque_de_dos_luchadores">
               <img src="/images/luchadores/grefg.webp" alt="" />
