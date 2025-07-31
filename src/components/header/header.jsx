@@ -157,8 +157,8 @@ const Header = () => {
             </div>
             <div className="div_de_luchadores_mas_el_margin_left">
               <div className="bloque_de_dos_luchadores">
-                <img src="/images/luchadores/grefg.webp" alt="" />
-                <img src="/images/luchadores/westcol.webp" alt="" />
+                <img src="/images/luchadores/peereira.webp" alt="" />
+                <img src="/images/luchadores/rivaldios.webp" alt="" />
               </div>
               <figure>
                 <img src="/images/luchadores/versus.webp" alt="" />
@@ -166,8 +166,8 @@ const Header = () => {
             </div>
             <div className="div_de_luchadores_mas_el_margin_left">
               <div className="bloque_de_dos_luchadores">
-                <img src="/images/luchadores/grefg.webp" alt="" />
-                <img src="/images/luchadores/westcol.webp" alt="" />
+                <img src="/images/luchadores/perxitaa.webp" alt="" />
+                <img src="/images/luchadores/gaspi.webp" alt="" />
               </div>
               <figure>
                 <img src="/images/luchadores/versus.webp" alt="" />
@@ -175,8 +175,8 @@ const Header = () => {
             </div>
             <div className="div_de_luchadores_mas_el_margin_left">
               <div className="bloque_de_dos_luchadores">
-                <img src="/images/luchadores/grefg.webp" alt="" />
-                <img src="/images/luchadores/westcol.webp" alt="" />
+                <img src="/images/luchadores/abby.webp" alt="" />
+                <img src="/images/luchadores/roro.webp" alt="" />
               </div>
               <figure>
                 <img src="/images/luchadores/versus.webp" alt="" />
@@ -184,8 +184,8 @@ const Header = () => {
             </div>
             <div className="div_de_luchadores_mas_el_margin_left">
               <div className="bloque_de_dos_luchadores">
-                <img src="/images/luchadores/grefg.webp" alt="" />
-                <img src="/images/luchadores/westcol.webp" alt="" />
+                <img src="/images/luchadores/andoni.webp" alt="" />
+                <img src="/images/luchadores/carlos.webp" alt="" />
               </div>
               <figure>
                 <img src="/images/luchadores/versus.webp" alt="" />
@@ -193,8 +193,8 @@ const Header = () => {
             </div>
             <div className="div_de_luchadores_mas_el_margin_left">
               <div className="bloque_de_dos_luchadores">
-                <img src="/images/luchadores/grefg.webp" alt="" />
-                <img src="/images/luchadores/westcol.webp" alt="" />
+                <img src="/images/luchadores/viruzz.webp" alt="" />
+                <img src="/images/luchadores/tomas.webp" alt="" />
               </div>
               <figure>
                 <img src="/images/luchadores/versus.webp" alt="" />
@@ -202,8 +202,8 @@ const Header = () => {
             </div>
             <div className="div_de_luchadores_mas_el_margin_left">
               <div className="bloque_de_dos_luchadores">
-                <img src="/images/luchadores/grefg.webp" alt="" />
-                <img src="/images/luchadores/westcol.webp" alt="" />
+                <img src="/images/luchadores/alana.webp" alt="" />
+                <img src="/images/luchadores/arigeli.webp" alt="" />
               </div>
               <figure>
                 <img src="/images/luchadores/versus.webp" alt="" />
