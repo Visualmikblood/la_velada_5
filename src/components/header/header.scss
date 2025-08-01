@@ -4,7 +4,7 @@ header{
     height: 100vh;
     background-image: url(https://www.infolavelada.com/images/hero.avif);
     align-items: center;
-    
+    position: relative;
     .div_de_contenido_en_el_header{
         display: flex;
         justify-content: space-between;
