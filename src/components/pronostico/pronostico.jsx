@@ -60,9 +60,9 @@ const Pronostico = () => {
             <div className="div_con_imgs_y_pronosticos_info">
                 <div className='bloque_imgs_par_de_luchadores_mas_info'>
                     <a href="">
-                        <img src="/images/luchadores/plano_medio/grefg (1).webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/westcol.webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/segunda_lucha_movil/viruzz.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/segunda_lucha_movil/tomas.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/segunda_lucha_movil/viruzz-vs-tomas.webp" alt="" />
                     </a>
                     <div className='barras_de_pronosticos_con_votaciones'>
                         <div className='barra_de_pronosticos_con_votaciones_2'>

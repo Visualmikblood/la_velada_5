@@ -12,16 +12,24 @@ section {
   .div_con_imgs_y_pronosticos_info {
     padding: 24px;
     margin: 40px 0px 44px 0px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .bloque_imgs_par_de_luchadores_mas_info {
+      width: 100%;
+      max-width: 624px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       a {
-        display: block;
+        display: flex;
+        justify-content: center;
         height: 40vh;
         width: 100%;
         max-height: 700px;
         position: relative;
         max-width: 600px;
-
+        
         img {
           height: 100%;
           width: auto;
@@ -48,16 +56,19 @@ section {
           width: 100%;
           bottom: 0!important;
           transform: skewX(-4deg) skewY(-4deg);
+          max-width: 300px;
         }
       }
       .barras_de_pronosticos_con_votaciones{
         margin-top: 20px;
+        width: 100%;
           .barra_de_pronosticos_con_votaciones_2{
             .a_con_barra_pronosticos{
               height: auto;
               text-decoration: none;
               color: #fff;
               font-weight: bold;
+              display: block;
               .div_dentro_de_a_de_barras_de_pronosticos{
                 display: flex !important;
                 position: relative;
@@ -107,6 +118,7 @@ section {
                   border-radius: 0px 30px 30px 0px;
                   span{
                     font-size: 10px;
+                    z-index: 999;
                   }
                 }
               }
