@@ -75,6 +75,7 @@ section {
                 border-radius: 30px;
                 border: solid 1px #fff;
                 box-shadow: 12px 12px 18px 1px rgb(0 0 0 / 0.2);
+
                 .primer_luchador_de_la_barra_de_pronosticos{
                   display: flex;
                   flex-direction: column;
@@ -99,6 +100,42 @@ section {
                     z-index: 999;
                   }
                 }
+                .primer_luchador_segunda_lucha{
+                  width: 80%!important;
+                }
+                .segundo_luchador_segunda_lucha{
+                  width: 20%!important;
+                }
+                .primer_luchador_tercera_lucha{
+                  width: 70%!important;
+                }
+                .segundo_luchador_tercera_lucha{
+                  width: 30%!important;
+                }
+                .primer_luchador_cuarta_lucha{
+                  width: 71%!important;
+                }
+                .segundo_luchador_cuarta_lucha{
+                  width: 29%!important;
+                }
+                .primer_luchador_quinta_lucha{
+                  width: 36%!important;
+                }
+                .segundo_luchador_quinta_lucha{
+                  width: 64%!important;
+                }
+                .primer_luchador_sexta_lucha{
+                  width: 56%!important;
+                }
+                .segundo_luchador_sexta_lucha{
+                  width: 44%!important;
+                }
+                .primer_luchador_septima_lucha{
+                  width: 70%!important;
+                }
+                .segundo_luchador_septima_lucha{
+                  width: 30%!important;
+                }
                 .segundo_luchador_de_la_barra_de_pronosticos{
                   div{
                     width: calc(0.25rem * 2);
@@ -122,6 +159,7 @@ section {
                   }
                 }
               }
+              
             }
              .numero_de_votos{
               color: #fff;

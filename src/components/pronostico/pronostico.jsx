@@ -68,9 +68,9 @@ const Pronostico = () => {
                         <div className='barra_de_pronosticos_con_votaciones_2'>
                             <a className="a_con_barra_pronosticos" href="">
                                 <div className='div_dentro_de_a_de_barras_de_pronosticos'>
-                                    <div className='primer_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='primer_luchador_de_la_barra_de_pronosticos primer_luchador_segunda_lucha'>
                                         <span>
-                                            GREFG
+                                            VIRUZZ
                                         </span>
                                         <span>
                                             80%
@@ -80,12 +80,12 @@ const Pronostico = () => {
                                         </div>
 
                                     </div>
-                                    <div className='segundo_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='segundo_luchador_de_la_barra_de_pronosticos segundo_luchador_segunda_lucha'>
                                         <div>
                                             
                                         </div>
                                         <span>
-                                            WESTCOL
+                                            TOMAS
                                         </span>
                                         <span>
                                             20%
@@ -117,27 +117,27 @@ const Pronostico = () => {
                         <div className='barra_de_pronosticos_con_votaciones_2'>
                             <a className="a_con_barra_pronosticos" href="">
                                 <div className='div_dentro_de_a_de_barras_de_pronosticos'>
-                                    <div className='primer_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='primer_luchador_de_la_barra_de_pronosticos primer_luchador_tercera_lucha'>
                                         <span>
-                                            GREFG
+                                            ALANA
                                         </span>
                                         <span>
-                                            80%
+                                            70%
                                         </span>
                                         <div>
 
                                         </div>
 
                                     </div>
-                                    <div className='segundo_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='segundo_luchador_de_la_barra_de_pronosticos segundo_luchador_tercera_lucha'>
                                         <div>
                                             
                                         </div>
                                         <span>
-                                            WESTCOL
+                                            ARIGELI
                                         </span>
                                         <span>
-                                            20%
+                                            30%
                                         </span>
                                     </div>
                                 </div>
@@ -165,27 +165,27 @@ const Pronostico = () => {
                         <div className='barra_de_pronosticos_con_votaciones_2'>
                             <a className="a_con_barra_pronosticos" href="">
                                 <div className='div_dentro_de_a_de_barras_de_pronosticos'>
-                                    <div className='primer_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='primer_luchador_de_la_barra_de_pronosticos primer_luchador_cuarta_lucha'>
                                         <span>
-                                            GREFG
+                                            ANDONI
                                         </span>
                                         <span>
-                                            80%
+                                            71%
                                         </span>
                                         <div>
 
                                         </div>
 
                                     </div>
-                                    <div className='segundo_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='segundo_luchador_de_la_barra_de_pronosticos segundo_luchador_cuarta_lucha'>
                                         <div>
                                             
                                         </div>
                                         <span>
-                                            WESTCOL
+                                            CARLOS
                                         </span>
                                         <span>
-                                            20%
+                                            29%
                                         </span>
                                     </div>
                                 </div>
@@ -213,27 +213,27 @@ const Pronostico = () => {
                         <div className='barra_de_pronosticos_con_votaciones_2'>
                             <a className="a_con_barra_pronosticos" href="">
                                 <div className='div_dentro_de_a_de_barras_de_pronosticos'>
-                                    <div className='primer_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='primer_luchador_de_la_barra_de_pronosticos primer_luchador_quinta_lucha'>
                                         <span>
-                                            GREFG
+                                            ABBY
                                         </span>
                                         <span>
-                                            80%
+                                            24%
                                         </span>
                                         <div>
 
                                         </div>
 
                                     </div>
-                                    <div className='segundo_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='segundo_luchador_de_la_barra_de_pronosticos segundo_luchador_quinta_lucha'>
                                         <div>
                                             
                                         </div>
                                         <span>
-                                            WESTCOL
+                                            RORO
                                         </span>
                                         <span>
-                                            20%
+                                            76%
                                         </span>
                                     </div>
                                 </div>
@@ -260,27 +260,27 @@ const Pronostico = () => {
                         <div className='barra_de_pronosticos_con_votaciones_2'>
                             <a className="a_con_barra_pronosticos" href="">
                                 <div className='div_dentro_de_a_de_barras_de_pronosticos'>
-                                    <div className='primer_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='primer_luchador_de_la_barra_de_pronosticos primer_luchador_sexta_lucha'>
                                         <span>
-                                            GREFG
+                                            PERXITAA
                                         </span>
                                         <span>
-                                            80%
+                                            36%
                                         </span>
                                         <div>
 
                                         </div>
 
                                     </div>
-                                    <div className='segundo_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='segundo_luchador_de_la_barra_de_pronosticos segundo_luchador_sexta_lucha'>
                                         <div>
                                             
                                         </div>
                                         <span>
-                                            WESTCOL
+                                            GASPI
                                         </span>
                                         <span>
-                                            20%
+                                           64%
                                         </span>
                                     </div>
                                 </div>
@@ -306,27 +306,27 @@ const Pronostico = () => {
                         <div className='barra_de_pronosticos_con_votaciones_2'>
                             <a className="a_con_barra_pronosticos" href="">
                                 <div className='div_dentro_de_a_de_barras_de_pronosticos'>
-                                    <div className='primer_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='primer_luchador_de_la_barra_de_pronosticos primer_luchador_septima_lucha'>
                                         <span>
-                                            GREFG
+                                            PEREIRA
                                         </span>
                                         <span>
-                                            80%
+                                            56%
                                         </span>
                                         <div>
 
                                         </div>
 
                                     </div>
-                                    <div className='segundo_luchador_de_la_barra_de_pronosticos'>
+                                    <div className='segundo_luchador_de_la_barra_de_pronosticos segundo_luchador_septima_lucha'>
                                         <div>
                                             
                                         </div>
                                         <span>
-                                            WESTCOL
+                                            RIVALDIOS
                                         </span>
                                         <span>
-                                            20%
+                                            44%
                                         </span>
                                     </div>
                                 </div>
