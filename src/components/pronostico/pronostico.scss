@@ -26,30 +26,95 @@ section {
           height: 100%;
           width: auto;
           position: absolute;
-          top: 0;
-          transition: transform 0.3s ease; // separación suave
+          bottom: 0;
+          transition: transform 0.3s ease;
+          transform-origin: bottom center;
         }
 
         // Primer luchador a la izquierda
         img:nth-child(1) {
           left: 0;
-          transform: translateX(calc(clamp(0px, 5vw, 100px) * -1));
+          transform: translateX(calc(clamp(0px, 5vw, 50px) * -1)) scale(clamp(0.8, 1, 1));
         }
 
         // Segundo luchador a la derecha
         img:nth-child(2) {
           right: 0;
-          transform: translateX(clamp(0px, 5vw, 100px));
+          transform: translateX(clamp(0px, 5vw, 50px)) scale(clamp(0.8, 1, 1));
         }
 
-        div {
-          // Aquí no cambia nada, por ahora
+        img:nth-child(3){
+          height: auto;
+          width: 100%;
+          bottom: 0!important;
+          transform: skewX(-4deg) skewY(-4deg);
         }
       }
+      .barras_de_pronosticos_con_votaciones{
+        margin-top: 20px;
+          .barra_de_pronosticos_con_votaciones_2{
+            .a_con_barra_pronosticos{
+              text-decoration: none;
+              color: #fff;
+              font-weight: bold;
+              .div_dentro_de_a_de_barras_de_pronosticos{
+                display: flex !important;
+                position: relative;
+                border-radius: 30px;
+                border: solid 2px #fff;
+                box-shadow: 12px 12px 18px 1px rgb(0 0 0 / 0.2);
+                .primer_luchador_de_la_barra_de_pronosticos{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  background: pink;
+                  background-image: linear-gradient(to left, oklch(82.3% .12 346.018),oklch(65.6% .241 354.308));
+                  width: 80%;
+                  border-radius: 30px 0px 0px 30px;
+                  padding: 10px 0px 10px;
+                  position: relative;
+                  span{
+                    font-size: 10px;
+                  }
+                  div{
+                    width: calc(0.25rem * 2);
+                    height: 100%;
+                    background: oklch(82.3% 0.12 346.018deg);
+                    position: absolute;
+                    right: 0px;
+                    transform: skewX(12deg);
+                    z-index: 999;
+                  }
+                }
+                .segundo_luchador_de_la_barra_de_pronosticos{
+                  div{
+                    width: calc(0.25rem * 2);
+                    height: 100%;
+                    background:oklch(80.9% 0.105 251.813deg);
+                    position: absolute;
+                    left: 0px;
+                    transform: skewX(12deg);
+                  }
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  position: relative;
+                  background-image: linear-gradient(to left, oklch(74.6% .16 232.661),oklch(80.9% .105 251.813));
+                  width: 20%;
+                  border-radius: 0px 30px 30px 0px;
+                  span{
+                    font-size: 10px;
+                  }
+                }
+              }
+            }
+            p .numero_de_votos{
 
-      div {
-        // Aquí tampoco
-      }
+            }
+          }
+    }
     }
   }
 }

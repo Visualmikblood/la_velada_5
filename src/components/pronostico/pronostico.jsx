@@ -14,12 +14,41 @@ const Pronostico = () => {
                     <a href="">
                         <img src="/images/luchadores/plano_medio/grefg (1).webp" alt="" />
                         <img src="/images/luchadores/plano_medio/westcol.webp" alt="" />
-                        <div>
-                            <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
-                        </div>
+                        <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
                     </a>
-                    <div>
+                    <div className='barras_de_pronosticos_con_votaciones'>
+                        <div className='barra_de_pronosticos_con_votaciones_2'>
+                            <a className="a_con_barra_pronosticos" href="">
+                                <div className='div_dentro_de_a_de_barras_de_pronosticos'>
+                                    <div className='primer_luchador_de_la_barra_de_pronosticos'>
+                                        <span>
+                                            GREFG
+                                        </span>
+                                        <span>
+                                            80%
+                                        </span>
+                                        <div>
 
+                                        </div>
+
+                                    </div>
+                                    <div className='segundo_luchador_de_la_barra_de_pronosticos'>
+                                        <div>
+                                            
+                                        </div>
+                                        <span>
+                                            WESTCOL
+                                        </span>
+                                        <span>
+                                            20%
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <p className='numero_de_votos'>
+
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
