@@ -53,8 +53,8 @@ section {
 
         img:nth-child(3){
           height: auto;
-          width: 100%;
-          bottom: 0!important;
+          width: 70%;
+          bottom: -20% !important;
           transform: skewX(-4deg) skewY(-4deg);
           max-width: 300px;
         }
