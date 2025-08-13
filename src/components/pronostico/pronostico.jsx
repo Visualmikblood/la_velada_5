@@ -109,9 +109,9 @@ const Pronostico = () => {
             <div className="div_con_imgs_y_pronosticos_info">
                 <div className='bloque_imgs_par_de_luchadores_mas_info'>
                     <a href="">
-                        <img src="/images/luchadores/plano_medio/grefg (1).webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/westcol.webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/tercera_lucha_movil/alana.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/tercera_lucha_movil/arigeli.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/tercera_lucha_movil/alana-vs-arigeli.webp" alt="" />
                     </a>
                     <div className='barras_de_pronosticos_con_votaciones'>
                         <div className='barra_de_pronosticos_con_votaciones_2'>
@@ -157,9 +157,9 @@ const Pronostico = () => {
             <div className="div_con_imgs_y_pronosticos_info">
                 <div className='bloque_imgs_par_de_luchadores_mas_info'>
                     <a href="">
-                        <img src="/images/luchadores/plano_medio/grefg (1).webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/westcol.webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/cuarta_lucha_movil/andoni.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/cuarta_lucha_movil/carlos.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/cuarta_lucha_movil/andoni-vs-carlos.webp" alt="" />
                     </a>
                     <div className='barras_de_pronosticos_con_votaciones'>
                         <div className='barra_de_pronosticos_con_votaciones_2'>
@@ -205,9 +205,9 @@ const Pronostico = () => {
             <div className="div_con_imgs_y_pronosticos_info">
                 <div className='bloque_imgs_par_de_luchadores_mas_info'>
                     <a href="">
-                        <img src="/images/luchadores/plano_medio/grefg (1).webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/westcol.webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/quinta_lucha_movil/abby.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/quinta_lucha_movil/roro.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/quinta_lucha_movil/abby-vs-roro.webp" alt="" />
                     </a>
                     <div className='barras_de_pronosticos_con_votaciones'>
                         <div className='barra_de_pronosticos_con_votaciones_2'>
@@ -252,9 +252,9 @@ const Pronostico = () => {
             <div className="div_con_imgs_y_pronosticos_info">
                 <div className='bloque_imgs_par_de_luchadores_mas_info'>
                     <a href="">
-                        <img src="/images/luchadores/plano_medio/grefg (1).webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/westcol.webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/sexta_lucha_movil/perxitaa.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/sexta_lucha_movil/gaspi.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/sexta_lucha_movil/perxitaa-vs-gaspi.webp" alt="" />
                     </a>
                     <div className='barras_de_pronosticos_con_votaciones'>
                         <div className='barra_de_pronosticos_con_votaciones_2'>
@@ -298,9 +298,9 @@ const Pronostico = () => {
             <div className="div_con_imgs_y_pronosticos_info">
                 <div className='bloque_imgs_par_de_luchadores_mas_info'>
                     <a href="">
-                        <img src="/images/luchadores/plano_medio/grefg (1).webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/westcol.webp" alt="" />
-                        <img src="/images/luchadores/plano_medio/grefg-vs-westcol.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/septima_lucha_movil/peereira.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/septima_lucha_movil/rivaldios.webp" alt="" />
+                        <img src="/images/luchadores/plano_medio/septima_lucha_movil/peereira-vs-rivaldios.webp" alt="" />
                     </a>
                     <div className='barras_de_pronosticos_con_votaciones'>
                         <div className='barra_de_pronosticos_con_votaciones_2'>
