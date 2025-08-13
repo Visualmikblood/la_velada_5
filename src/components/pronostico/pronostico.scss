@@ -29,7 +29,7 @@ section {
         max-height: 700px;
         position: relative;
         max-width: 600px;
-        
+        mask-image: linear-gradient(black 95%, transparent);
         img {
           height: 100%;
           width: auto;
@@ -69,6 +69,7 @@ section {
               color: #fff;
               font-weight: bold;
               display: block;
+              mask-image: none;
               .div_dentro_de_a_de_barras_de_pronosticos{
                 display: flex !important;
                 position: relative;
@@ -89,6 +90,7 @@ section {
                   position: relative;
                   span{
                     font-size: 10px;
+                    filter: drop-shadow(0px 30px 3px #0000001f);
                   }
                   div{
                     width: calc(0.25rem * 2);
