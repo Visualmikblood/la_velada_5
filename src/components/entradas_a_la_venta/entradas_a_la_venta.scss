@@ -1,0 +1,30 @@
+.section_de_entradas_a_la_venta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 144px 20px;
+   
+    .div_de_img_de_la_seccion_de_entradas{
+        img{
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 57px 23px rgb(0 0 0 / 20%);
+        }
+    }
+    .a_de_entradas_a_la_venta{
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bolder;
+        padding: 8px 24px;
+        font-weight: bold;
+        font-size: 1.8rem;
+        background: oklch(71.8% .202 349.761);
+        border: solid 1px #fff;
+        border-radius: 10px;
+        text-align: center;
+        font-family: inherit;
+        margin-top: 10px;
+        box-shadow: 0px 0px 27px 5px rgb(0 0 0 / 20%);
+    }
+}
