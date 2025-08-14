@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/header.jsx';
 import Pronostico from './components/pronostico/pronostico.jsx';
 import Entradas_a_la_venta from './components/entradas_a_la_venta/entradas_a_la_venta.jsx';
+import Artistas from './components/artistas/artistas.jsx';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Pronostico />
       <Entradas_a_la_venta />
+      <Artistas />
     </div>
   );
 }
