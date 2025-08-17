@@ -17,6 +17,60 @@ const Artistas = () => {
                         aitana
                     </h2>
                 </div>
+
+
+                <div className='div_de_un_solo_artista_con_nombre'>
+                    <img src="/images/seccion_artistas/delarose.webp" alt="" />
+                    <h2>
+                        delarose
+                    </h2>
+                </div>
+
+
+
+                <div className='div_de_un_solo_artista_con_nombre'>
+                    <img src="/images/seccion_artistas/eladiocarrion.webp" alt="" />
+                    <h2>
+                        eladio carrion
+                    </h2>
+                </div>
+
+
+
+                <div className='div_de_un_solo_artista_con_nombre'>
+                    <img src="/images/seccion_artistas/grupofrontera.webp" alt="" />
+                    <h2>
+                        grupo frontera
+                    </h2>
+                </div>
+
+
+
+                <div className='div_de_un_solo_artista_con_nombre'>
+                    <img src="/images/seccion_artistas/losdelrio.webp" alt="" />
+                    <h2>
+                        los del rio
+                    </h2>
+                </div>
+
+
+
+
+                <div className='div_de_un_solo_artista_con_nombre'>
+                    <img src="/images/seccion_artistas/melendi.webp" alt="" />
+                    <h2>
+                        melendi
+                    </h2>
+                </div>
+
+
+
+                <div className='div_de_un_solo_artista_con_nombre'>
+                    <img src="/images/seccion_artistas/myketowers.webp" alt="" />
+                    <h2>
+                        mike towers
+                    </h2>
+                </div>
             </div>
         </section>
 

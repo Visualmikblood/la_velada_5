@@ -3,19 +3,31 @@
 
     }
     .div_con_todos_los_artistas{
+        padding: 21px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px !important;
         .div_de_un_solo_artista_con_nombre{
             padding: 24px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            border-radius: 5px;
             background-image: linear-gradient(to bottom right, #01315e 0%, #fff 100%);
             img{
                 width: 100%;
                 max-width: 336px;
+                margin-bottom: 8px;
             }
             h2{
+                width: 100%;
                 padding: 0px;
+                padding: 8px 16px;
+                color: #fff;
+                background-color: #000;
+                border-radius: .375rem;
+                font-family: "Anisette", inherit;
             }
         }
     }
