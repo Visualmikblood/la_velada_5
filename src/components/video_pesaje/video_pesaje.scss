@@ -1,0 +1,23 @@
+.seccion_pesaje{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h2{
+
+    }
+    .div_que_tiene_portada_del_video_de_pesaje_y_iframe{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+
+        }
+        .video_pesaje{
+            width: 100%;
+            border-radius: 10px;
+            max-width: 856px;
+        }
+    }
+}
